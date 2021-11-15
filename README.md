@@ -4,17 +4,19 @@ my custom coc plugin
 
 ## Install
 
-`:CocInstall coc-edgardleal`
+`:CocInstall coc-my-plugin`
+
+### With Plug
+
+`Plug 'username/coc-my-plugin', { 'do': 'make' }`
 
 ## Keymaps
 
-`nmap <silent> <C-l> <Plug>(coc-coc-edgardleal-keymap)`
+`nmap <silent> <C-l> <Plug>(coc-coc-my-plugin-keymap)`
 
 ## TODO
 
-* [ ] build with tsc
 * [ ] Instructions to install and use `do` from `Plug` plugin manager
-* [ ] include jest setup
 
 ## Lists
 
